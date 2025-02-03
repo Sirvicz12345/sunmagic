@@ -1,0 +1,64 @@
+version: 3.0
+name: "Nurse_VTuber"
+model: "nurse.model3.json"
+
+textures:
+  - "textures/texture_00.png"
+  - "textures/texture_01.png"
+
+hit_areas:
+  head: "Head"
+  body: "Body"
+
+motions:
+  greeting:
+    - file: "motions/greeting.motion3.json"
+      fade_in: 500
+      fade_out: 500
+  idle:
+    - file: "motions/idle.motion3.json"
+      fade_in: 300
+      fade_out: 300
+  blink:
+    - file: "motions/blink.motion3.json"
+      loop: true
+      fade_in: 150
+      fade_out: 150
+  talk:
+    - file: "motions/talk.motion3.json"
+      fade_in: 300
+      fade_out: 300
+  nod:
+    - file: "motions/nod.motion3.json"
+      fade_in: 400
+      fade_out: 400
+  shake_head:
+    - file: "motions/shake_head.motion3.json"
+      fade_in: 400
+      fade_out: 400
+
+expressions:
+  neutral:
+    file: "expressions/neutral.exp3.json"
+  happy:
+    file: "expressions/happy.exp3.json"
+  sad:
+    file: "expressions/sad.exp3.json"
+  angry:
+    file: "expressions/angry.exp3.json"
+
+physics:
+  file: "physics/physics3.json"
+
+pose:
+  file: "pose/pose3.json"
+
+user_data:
+  file: "userdata/userdata.json"
+
+sounds:
+  talk:
+    - "sounds/voice_talk1.wav"
+    - "sounds/voice_talk2.wav"
+  greeting:
+    - "sounds/voice_greeting.wav"
