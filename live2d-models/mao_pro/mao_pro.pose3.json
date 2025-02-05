@@ -1,5 +1,6 @@
 {
 	"Type": "Live2D Pose",
+	"FadeInTime": 2,
 	"Groups": [
 		[
 			{
